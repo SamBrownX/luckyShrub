@@ -1,21 +1,27 @@
 .container {
     width: 100%;
+    margin-top: 0px;
 }
+
 .align-left {
     float: left;
-    width: 50%;
 }
-.algin-right {
+.align-right {
     float: right;
-    width: 50%;
 }
 
 #cartbutton {
     float: right;
+    margin-top: 15px;
+    margin-right: 50%;
 }
+
+
 
 #hamburger {
     color: #818181;
+    margin-top: 0px;
+    padding: 0px;
     
 }
 
@@ -154,7 +160,7 @@ nav {
         background-size: cover;
   }
 }
-/*landscape design*/
+
 .landscape-text {
     color: white;
     text-align: center;
