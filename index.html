@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Shrub</title>
-    <meta name="description" content="A brief description">
+    <meta name="description" content="Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for plants. Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers. Maria manages all the marketing for the company and oversees the nursery.">
     <meta name="author" content="Lucky Shrub">
-
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -19,19 +18,19 @@
 
 <body>
     <header>
-        <i id="cartbutton" style="font-size:24px" class="fa">&#xf07a;</i>
-        <script src="index.js"></script>
-        <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <div class="container">
+            <div class="align-right">
+            <i id="cartbutton" style="font-size:24px" class="fa">&#xf07a;</i>
+            </div>
+            <div class="algin-left">
+            <script src="index.js"></script>
+            <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
         <img src="greenLogo.png" alt="green shrub logo">
     </header>
 <nav>
-    <ul>
-        <li><a href="index.html"></a>Home</li>
-        <li><a href="landscaping.html"></a>Landscape Design</li>
-        <li><a href="nursery.html"></a>Nursery</li>
-        <li><a href="about.html"></a>About</li>
-    </ul>
-
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -41,54 +40,54 @@
           <a href="#">About</a>
         </div>
       </div>
+   <ul>
+        <li><a href="index.html"></a>Home</li>
+        <li><a href="landscaping.html"></a>Landscape Design</li>
+        <li><a href="nursery.html"></a>Nursery</li>
+        <li><a href="about.html"></a>About</li>
+    </ul>
+
 </nav>
 <div class="hero-image">
     <div class="hero-text">
-        <h1 style="font-size: 5rem;">Breathe Better.</h1>
+        <h1>Breathe Better.</h1>
         <p>Our Oxygen Producing Superplants Not Only Beautify Your Space but Clean your Air and Reduce the Presence of Harmful Toxins</p>
         <button>On Sale Now</button>
     </div>
+</div>  
+<div class="landscape-image">
+    <div class="landscape-text">
+        <h1>Your Landscape Design Archtiects.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.</p>
+        <button>Schedule an Appointment</button>
+    </div>
 </div>
-<br>    
 <main>
-    <section>
-        <article class="first">
-            <h1>Your Landscape Design Archtiects.</h1>
-                <div id="firstcopy">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
-                    </p>
-                    <br>
-                    <button>Schedule an Appointment</button>
-                </div>
+<section>
+    <div class="flex-container">
+        <article class="second-left">
+            <h2>Heading 2</h2>
+            <img src="individualShrubs.jpeg" alt="shrubs">
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
+            </p>
         </article>
-    </section>
-    <section>
-        <div class="flex-container">
-            <article class="second-left">
-                <h2>Heading 2</h2>
-                <img src="individualShrubs.jpeg" alt="shrubs">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
-             </p>
-            </article>
-            <article class="second-center">
-                <h2>Heading 2</h2>
-                <img src="snakeplant.jpeg" alt="shrubs">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
-                </p>
-            </article>
-            <article class="second-right">
-                <h2>Heading 2</h2>
-                <img src="bromelaid.jpeg" alt="shrubs">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
-                </p>
-            </article>
-        </div>    
-
-    </section>
+        <article class="second-center">
+            <h2>Heading 2</h2>
+            <img src="snakeplant.jpeg" alt="shrubs">
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
+            </p>
+        </article>
+        <article class="second-right">
+            <h2>Heading 2</h2>
+            <img src="bromelaid.jpeg" alt="shrubs">
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsa, cum at quos recusandae quidem quam iure consequatur! Ab ratione atque eum, delectus libero architecto ea unde suscipit nam deserunt.
+            </p>
+        </article>
+    </div>    
+</section>
 </main>
 <footer>
     <div id="footerlogo">
