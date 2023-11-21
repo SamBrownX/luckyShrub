@@ -280,7 +280,8 @@ article[class^="second"] > img:hover {
 
 article[class^="second"] > h2 {
     text-align: center;
-    color: #818181;
+    color: rgb(98, 99, 99);
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 article[class^="second"] {
