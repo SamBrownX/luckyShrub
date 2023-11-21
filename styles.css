@@ -252,6 +252,7 @@ footer div {
 
 article p {
     color: #b53434;
+    text-align: center;
 }
 #copyright {
     bottom: 10%;
