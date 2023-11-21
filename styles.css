@@ -275,10 +275,12 @@ article[class^="second"] > img {
 article[class^="second"] > img:hover {
     transform: scale(1.02);
     transition: all .2s easeout;
+    cursor: pointer;
 }
 
 article[class^="second"] > h2 {
     text-align: center;
+    color: #818181;
 }
 
 article[class^="second"] {
