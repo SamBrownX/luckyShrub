@@ -287,7 +287,7 @@ article[class^="second"] > h2 {
     text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
                  10px 20px 5px rgba(0,0,0,0.05),
                  -10px 20px 5px rgba(0,0,0,0.05);
-    
+
     cursor: pointer;
 }
 
@@ -299,6 +299,10 @@ article[class^="second"] {
     flex-direction: row;
     padding: 10px;
 
+}
+
+article[class^="second"]:hover {
+    transform: scale(1.02);
 }
 
 @media (max-width: 800px) {
